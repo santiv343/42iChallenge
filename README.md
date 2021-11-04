@@ -3,8 +3,6 @@
 
 El challenge consiste en pulir un tablero de ajedrez con una unica pieza, el Caballo.armar un juego de [https://es.wikipedia.org/wiki/Caballo_(ajedrez)](Caballo).
 
-![](https://i.imgur.com/DNgBf6Y.png)
-
 Dada la siguiente posicion del caballo en un tablero:
 
 * marcar con color los posibles casilleros donde el caballo puede moverse.
@@ -15,6 +13,7 @@ Los siguientes puntos no son necesarios en la entrega, pero sí suman:
 
 * Hacer el tablero responsive.
 * Pintar el tablero como es realmente en el ajedrez, uno blanco y uno de color. haciendo el desfasaje de la row siguiente para que no hayan casillero con igual color que se directamente.
+* Mensajes de error si clickean afuera de lo posible
 
 ## Entrega
 
