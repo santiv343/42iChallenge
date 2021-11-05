@@ -1,7 +1,7 @@
 
 ### #02 Ajedrez
 
-El challenge consiste en pulir un tablero de ajedrez con una unica pieza, el Caballo.armar un juego de [https://es.wikipedia.org/wiki/Caballo_(ajedrez)](Caballo).
+El challenge consiste en pulir un tablero de ajedrez con una unica pieza, el Caballo [https://es.wikipedia.org/wiki/Caballo_(ajedrez)](Caballo).
 
 Dada la siguiente posicion del caballo en un tablero:
 
