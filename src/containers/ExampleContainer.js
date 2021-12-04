@@ -5,28 +5,40 @@ import { bindActionCreators } from 'redux';
 
 import { ExampleComponent } from '~/components/ExampleComponent';
 
-class ExampleContainer extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+export default function ExampleContainer(){
 
-  
-  render() {
-    return (
+  return(
       <div className="ExampleContainer">
         <ExampleComponent />
       </div>
-    );
-  }
+  )
+
+
 }
 
-const mapStateToProps = state => ({ reduxState: state });
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({
-    //
-  }, dispatch);
-}
+// class ExampleContainer extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {};
+//   }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ExampleContainer);
+  
+//   render() {
+//     return (
+//       <div className="ExampleContainer">
+//         <ExampleComponent />
+//       </div>
+//     );
+//   }
+// }
+
+// const mapStateToProps = state => ({ reduxState: state });
+
+// function mapDispatchToProps(dispatch) {
+//   return bindActionCreators({
+//     //
+//   }, dispatch);
+// }
+
+// export default connect(mapStateToProps, mapDispatchToProps)(ExampleContainer);

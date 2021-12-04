@@ -96,7 +96,7 @@ module.exports = {
       'process.env': {
         NODE_ENV: JSON.stringify('development'),
         REACT_APP_API_URL: JSON.stringify('http://localhost:9090/api'),
-        EXPERIMENTAL_FEATURES: JSON.stringify("true"),
+        EXPERIMENTAL_FEATURES: JSON.stringify('true'),
       },
     }),
     new HtmlWebpackPlugin({

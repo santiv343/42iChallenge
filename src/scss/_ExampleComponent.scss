@@ -1,18 +1,50 @@
 .ExampleComponent {
   margin: calc(100vh / 18);
+  display: grid;
+  grid-template-rows: repeat(8,1fr);
+  justify-items: center;
   .row {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     .rColumn {
       width: calc(100vh / 9);
       height: calc(100vh / 9);
       background-color: white;
-      border:1px solid grey;
+      border:1px solid rgb(0, 0, 0);
       position: relative;
       img {
         width: 100%;
       }
     }
+
+    
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ExampleComponent{
+    margin: 1vh 1vh 1vh 1vh;
+  }
+  // .row {
+  //   width: 40rem;
+  //   height: calc(40rem/8);
+  //   .rColumn{
+  //     height: calc(40rem/8);
+  //   }
+  // }
+}
+@media only screen and (max-width: 750px) {
+  .ExampleComponent{
+    margin: 1vh 1vh 1vh 1vh;
+  }
+  .row {
+    width: 30rem;
+    height: calc(30rem/8);
+
+  }
+  .rColumn{
+    height: calc(100vh / 13) !important;
   }
 }
